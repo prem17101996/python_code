@@ -1,9 +1,10 @@
-m,d=input().split()
-m=int(m)
-d=float(d)
-if(m%5==0 and (m+0.5)<d):
-    
-   print("{0:.2f}".format(d-m-0.5))
+table=3
+while(table<6):
+    print("table of",table)
+    nul=1
+    while(nul<=10):
+        print(table,"*",nul,"=",table*nul)
+        nul+=1
 
-else:
-    print(d)
+    print()
+    table=table+1
